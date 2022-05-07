@@ -25,9 +25,13 @@ async function run() {
             const products = await cursor.toArray();
             res.send(products);
 
-        })
+        });
+
+        
     }
-    finally{}
+    finally{
+
+    }
 }
 run().catch(console.dir);
 
